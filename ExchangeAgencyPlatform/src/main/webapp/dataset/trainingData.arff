@@ -1,0 +1,23 @@
+@relation items
+
+@attribute category {Electronics, Clothing, Furniture}
+@attribute name string
+@attribute brand {Apple, Nike, IKEA, Sony, DFS, Next, Samsung}
+@attribute ram {8GB, 6GB, 3GB, ?}
+@attribute model {iPhone_X, play_station_5, S20, S10, ?}
+@attribute colour {Silver, Black, Brown, gold, white, green, blue, ?}
+@attribute size {Large, Medium, 7, ?, ?}
+@attribute type {Sofa, Bookcase, chair, ?, ?}
+
+@data
+Electronics, 'iPhone X', Apple, 8GB, iPhone_X, Silver, ?, ?
+Clothing, 'Top', Nike, ?, ?, Black, Large, ?
+Furniture, 'IKEA Sofa', IKEA, ?, ?, Brown, ?, Sofa
+Electronics, 'Console', Sony, ?, play_station_5, gold, ?, ?
+Furniture, 'IKEA Bookcase', IKEA, ?, ?, white, ?, Bookcase
+Clothing, 'Shoes', Nike, ?, ?, blue, 7, ?
+Clothing, 'Jacket', Next, ?, ?, blue, Medium, ?
+Furniture, 'DFS Chair', DFS, ?, ?, white, ?, chair
+Electronics, 'Air Pods', Apple, ?, ?, white, ?, ?
+Electronics, 'Samsung S20', Samsung, 6GB, S20, green, ?, ?
+Electronics, 'Samsung S10', Samsung, 3GB, S10, black, ?, ?
